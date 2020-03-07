@@ -1,0 +1,181 @@
+
+.add{
+    display: block;
+}
+.win{
+    color:red;
+    }
+    
+.remove{
+    display: none;
+}
+.leftButtons{
+    margin-left:15px ;
+    }
+    
+.show{
+    animation: fade2 5s ease forwards;
+ }
+ 
+.rgb{
+    font-size: 40px;
+}
+.top{
+    margin-top: 10px;
+}
+
+.label{
+    color:rgb(68, 68, 170);
+}
+body{
+    background-color: white;
+    font-family: "Avenir";
+}
+.right{
+    margin-left: 400px;
+}
+.left{
+    margin-right: 350px;
+}
+.square{
+    width: 30%;
+    background-color: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15%;
+    /* transition: background 2.0s; */
+    /* border-radius is good for shaping the sqaures; */
+}
+.container{
+    margin: 0 auto;
+    max-width: 600px;
+    margin-top:30 auto;
+}
+body{
+    background: #232323;  
+    margin:0 ;  
+}
+html{
+    margin: 0;
+}
+.hide{
+
+    animation: fade 1s ease-in-out forwards;
+    
+}
+
+
+.displayColor{
+
+    text-transform: uppercase;
+    
+}
+.navbar{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+
+}
+#message{
+    display:inline-block;
+    width: 20%;
+}
+.selected{
+
+    background-color: steelblue;
+    color:white;
+    outline: none;
+    }
+#stripe{
+    margin-bottom:20px ;
+    height: 30px;
+    letter-spacing:1px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+
+}
+
+button{
+
+border: none;
+background: none;
+text-transform: uppercase;
+height: 100%;
+font-weight: 700;
+font-size: inherit;
+color:steelblue;
+letter-spacing:1px;
+transition:all 700ms;
+outline: none;
+
+
+/* this is the transition between the hovering effect and normal effect without having to make a keyframes; */
+}
+
+
+.feedback{
+
+    color:#3f2F11;
+    margin-left:200px ;
+    margin-right:200px ;
+
+}
+
+
+#stripe{
+background-color: white;
+height: 40px;
+text-align: center;
+color:red;
+}
+
+button:hover{
+    /* animation: highlights 300ms ease-in-out forwards; */
+  
+        color: white;
+        background-color: steelblue;
+}
+
+
+
+.heading{
+
+    text-align: center;
+    background:steelblue;
+    color:white;
+    padding-bottom:20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    width: 100%;
+        top:0;
+        line-height: 1.1;
+    padding: 20px 0;
+    }
+
+/* keyframes */
+@keyframes fade2{
+    from{ opacity: 0;}
+to{ opacity:1;}
+}
+@keyframes highlights{
+
+    from{
+        color:steelblue;
+        background-color: white;
+    }
+    to{
+        color: white;
+        background-color: steelblue;
+    }
+} 
+@keyframes fade{
+
+    from{
+        display: inline;
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        display: none;
+    }
+}
